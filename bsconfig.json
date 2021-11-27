@@ -1,0 +1,19 @@
+{
+    "name": "stock_watcher_re",
+    "sources": [
+        {
+            "dir": "src",
+            "subdirs": true
+        }
+    ],
+    "package-specs": [
+        {
+            "module": "commonjs",
+            "in-source": true
+        }
+    ],
+    "suffix": ".bs.js",
+    "bs-dependencies": [
+        "rescript-express"
+    ]
+}

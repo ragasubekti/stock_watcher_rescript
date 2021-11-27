@@ -1,0 +1,21 @@
+{
+  "name": "stock_viewer_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:w": "concurrently \"rescript build -w\" \"nodemon src/index.bs.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15",
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "rescript-express": "^0.4.1"
+  }
+}
